@@ -48,7 +48,17 @@ This is the backend service for the Turf Town app. It provides an API to get a r
         }
     ]
 
-5. For running the test cases:
+   # Mongodb url to access the data:
+
+    mongodb+srv://adhikaribikash821:CrhFaKeIEuViesHJ@ranking-system.l0uxy.mongodb.net/ranking-system?retryWrites=true&w=majority
+
+   # To connect with redis follow the command below and paste on your terminal:
+
+    redis-cli -h redis-12162.c264.ap-south-1-1.ec2.redns.redis-cloud.com -p 12162 -a h3H4s2tRELtyOoGvSHr60XywQYbgP4Ul
+
+    NOTE: Make sure you have redis-cli or else install it.
+
+6. For running the test cases:
 
     yarn test
         or
